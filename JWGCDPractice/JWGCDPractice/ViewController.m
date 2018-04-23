@@ -32,7 +32,9 @@
     //    [self asyncGlobalQueueSignMainQueue];
     
     // 0.5 同步 + 主队列 会死锁
-    [self barrierAsync];
+    //    [self syncMainQueue];
+    // 0.6 异步栅栏函数
+    //    [self barrierAsync];
 }
 
 
